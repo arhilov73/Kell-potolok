@@ -1,6 +1,5 @@
-// Read about the Intersection Observer API here https://developer.mozilla.org/en-US/docs/Web/API/Intersection_Observer_API
+// Our works-slider script:
 
-// More on using the Intersection Observer to create a gallery here: https://dev.to/joostkiens/creating-practical-instagram-like-galleries-and-horizontal-lists-with-css-scroll-snapping-580e
 "use strict";
 
 window.onload = (event) => {
@@ -29,7 +28,6 @@ window.onload = (event) => {
 
   /*
   Simple State control Functionality
-  Original idea found at https://viktorfejes.com/article/simple-state-management-with-vanilla-js
   */
   const state = {
     isPaginationRendered: false,
