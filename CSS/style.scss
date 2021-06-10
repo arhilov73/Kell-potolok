@@ -1,0 +1,945 @@
+/* font-family: 'Comfortaa', cursive; */
+
+
+// CONST
+$red-color: orangered;
+$light-grey: #f7f7f7;
+
+
+/* --- SUPPORTING CLASSES --- */
+.opacity-5 {
+    opacity: .5;
+}
+.bg-color-1 {
+    background-color: rgba(34,34,34,1);
+}
+.section-header {
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 40px;
+
+    font-size: 34px;
+    text-align: center;
+    font-weight: bold;
+}
+.mt-60{
+    margin-top: 60px;
+}
+/* --- // SUPPORTING CLASSES --- */
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html {
+    font-family: 'Comfortaa', cursive;
+}
+body {
+    width: 100vw;
+    margin: auto;
+    background-color: #fff;
+    overflow-x: hidden;
+}
+.wrapper {
+    width: 100%;
+    margin: 0 auto;
+}
+input[type=range] {
+    cursor: pointer;
+}
+
+
+/* --- HEADER --- */
+#header {
+    width: 100%;
+    height: 100vh;
+    padding-top: 60px;
+
+    background-size: cover;
+    background-position-x: center;
+    background-image: linear-gradient(
+        rgba(0, 0, 0, 0.3), 
+        rgba(0, 0, 0, 0.85)), 
+        url(https://e-dz.ru/uploads/imagecache/product/stretch-ceiling/revado-natyazhnoy-potolok-proekt-no150-5dcbc28d453b6.jpg)
+    ;
+    #nav {
+        height: 60px;
+        width: 100%;
+        padding: 0 10px;
+
+        display: flex;
+        position: fixed;
+        top: 0;
+
+        background-color: rgba(34,34,34,.5);
+        z-index: 2;
+    }
+    .logo {
+        height: 60px;
+        width: 60px;
+        padding: 3.5px;
+    }
+    .navbar {
+        height: 100%;
+        list-style: none;
+        display: flex;
+    }
+    .nav-item {
+        height: 100%;
+
+        a {
+            display: inline-block;
+            height: 100%;
+            line-height: 60px;
+            color: white;
+            padding: 0 30px;
+            text-transform: uppercase;
+            font-weight: bold;
+            letter-spacing: 1px;
+            transition: all .1s ease-in;
+
+            &:hover {
+                color: rgb(214, 213, 213);
+                transition: all .1s ease-in;
+            }
+        }
+    }
+    .phone-number {
+        height: 100%;
+        width: 30vw;
+        text-align: right;
+
+        a {
+            display: inline-block;
+            height: 100%;
+            line-height: 60px;
+            color: white;
+            letter-spacing: 1px;
+            font-weight: bold;
+            transition: all .1s ease-in;
+
+            &:hover {
+                color: $red-color;
+                transition: all .1s ease-in;
+            }
+        }
+    }
+    .header-banner {
+        height: 100%;
+        width: 100%;
+
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+
+        color: white;
+    }
+    .header-banner-head {
+        font-size: 26px;
+        font-weight: bold;
+
+        span {
+            border-bottom: 2px solid white;
+            padding-bottom: 5px;
+        }
+    }
+    .header-banner-body {
+        margin-top: 20px;
+        font-size: 60px;
+        font-weight: bold;
+        color: $red-color;
+        text-transform: uppercase;
+
+        text-align: center;
+
+        span {
+            color: white;
+        }
+    }
+    .header-banner-sale {
+        margin-top: 40px;
+    }
+    .header-banner-time {
+        font-size: 70px;
+        font-weight: bold;
+        margin-top: 20px;
+    }
+    .header-banner-btn {
+        height: 7vh;
+        width: 20%;
+        margin-top: 30px;
+        border-radius: 3.5vh;
+        text-align: center;
+        line-height: 7vh;
+        font-size: 18px;
+        font-weight: bold;
+        background-color: $red-color;
+        color: white;
+    }
+}
+/* --- //HEADER --- */
+
+
+/* --- MAIN --- */
+main {
+    margin-left: auto;
+    margin-right: auto;
+
+    /* --- PROMO-INFO --- */
+    .advantages {
+        max-width: 1250px;
+        width: 95%;
+        margin-left: auto;
+        margin-right: auto;
+        padding-top: 60px;
+        padding-bottom: 50px;
+
+        .adv-cards {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-around;
+            margin-bottom: 80px;
+
+            text-align: center;
+        }
+        .adv-card--body {
+            font-size: 20px;
+        }
+        .advantages-text {
+            text-align: justify;
+            font-size: 18px;
+            line-height: 1.3;
+        }
+    }
+    /* --- // PROMO-INFO --- */
+
+
+    /* --- TYPES --- */
+    .types {
+        width: 100%;
+        padding-top: 50px;
+        padding-bottom: 50px;
+        background-color: $light-grey;
+
+        .types-header {
+            max-width: 1250px;
+            width: 100%;
+            margin-left: auto;
+            margin-right: auto;
+            margin-bottom: 25px;
+            font-size: 22px;
+        }
+        .type-cards {
+            max-width: 1250px;
+            width: 100%;
+            margin-left: auto;
+            margin-right: auto;
+
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            flex-wrap: wrap;
+        }
+        .type-card {
+            width: 265px;
+        }
+        .type-card-2 {
+            width: 400px;
+        }
+        .type-img {
+            width: 100%;
+            height: 265px;
+
+            background-position: center;
+            background-size: cover;
+            background-repeat: no-repeat;
+        }
+        .type-body {
+            width: 100%;
+            padding-top: 15px;
+        }
+        .type-header {
+            font-size: 24px;
+            font-weight: bold;
+            margin-bottom: 15px;
+        }
+        .type-description {
+            height: 76px;
+            font-size: 14px;
+            margin-bottom: 25px;
+            line-height: 1.4;
+        }
+        .type-card-2 .type-description {
+            height: 85px;
+        }
+        .type-btn {
+            width: 60%;
+            height: 44px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-weight: bold;
+            font-size: 14px;
+            border: 1px solid $red-color;
+            border-radius: 22px;
+            cursor: pointer;
+
+            &:hover {
+                background-color: $red-color;
+                color: white;
+                transition: all 0.2s ease-in;
+            }
+        }
+        .type-card--mt30 {
+            margin-top: 30px;
+        }
+
+        /* --- CARDS-1 IMG --- */
+        .type-card:nth-child(1) .type-img{
+            background-image: url(https://static.tildacdn.com/tild3365-3539-4531-a137-613337643533/s1200_9.jpg);
+        }
+        .type-card:nth-child(2) .type-img {
+            background-image: url(https://thumb.tildacdn.com/tild6163-3832-4663-b566-333764373531/-/cover/260x240/center/center/-/format/webp/03_1.jpg);
+        }
+        .type-card:nth-child(3) .type-img {
+            background-image: url(https://thumb.tildacdn.com/tild6562-3061-4263-b439-343538313934/-/cover/260x240/center/center/-/format/webp/___4.jpg);
+        }
+        .type-card:nth-child(4) .type-img {
+            background-image: url(https://thumb.tildacdn.com/tild3637-6238-4435-a463-333864663738/-/cover/260x240/center/center/-/format/webp/scale_1200_9_1.jpg);
+        }
+        /* --- // CARDS-1 IMG --- */
+
+        /* --- CARDS-2 IMG --- */
+        .type-card-2:nth-child(1) .type-img{
+            background-image: url(https://averno.testseolead.ru/wp-content/uploads/2019/11/3foto.jpg);
+        }
+        .type-card-2:nth-child(2) .type-img{
+            background-image: url(https://images.by.prom.st/223372592_w500_h500_dvuhurovnevye-natyazhnye-potolki.jpg);
+        }
+        .type-card-2:nth-child(3) .type-img{
+            background-image: url(https://static.tildacdn.com/tild3466-3365-4961-a136-646634333034/s1200_11.jpg);
+        }
+        .type-card-2:nth-child(4) .type-img{
+            background-image: url(https://images.by.prom.st/224612580_w200_h200_konstruktsiya-dlya-montazha.jpg);
+        }
+        .type-card-2:nth-child(5) .type-img{
+            background-image: url(https://thumb.tildacdn.com/tild3536-3533-4562-b533-636532373461/-/cover/360x240/center/center/-/format/webp/1574086091_podsvetka.jpg);
+        }
+        .type-card-2:nth-child(6) .type-img{
+            background-image: url(https://room-potolok.ru/static/pages/images/gallery/%D0%91%D0%B5%D1%81%D1%88%D0%BE%D0%B2%D0%BD%D1%8B%D0%B5/88ec8101-1024x555.jpg);
+        }
+        /* --- CARDS-2 IMG --- */
+    }
+    /* --- // TYPES --- */
+
+
+    /* --- CALCULATOR --- */
+    .calculator {
+        max-width: 1250px;
+        width: 90%;
+        margin: 40px auto 0;
+        padding: 20px 0;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        box-shadow: 0 0 15px rgba(101, 101, 180, 0.6);
+        border: 1px solid #6565b4;
+
+        .calc-flex-block {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+        }
+        .calc-block {
+            width: 100%;
+            padding: 0 60px;
+            text-align: center;
+            font-size: 20px;
+
+            .range-s {
+                width: 100%;
+                margin: 20px 0 20px 0;
+            }
+            .current-s {
+                width: 30%;
+                height: 40px;
+                padding: 5px;
+                font-size: 30px;
+
+                &:disabled {
+                    background-color: white;
+                    border-width: 1px;
+                    border-color: rgb(118, 118, 118);
+                }
+            }
+        }
+        .calc-flex-block .calc-block {
+            margin-bottom: 20px;
+        }
+        .type-list {
+            list-style-type: none;
+            text-align: justify;
+            margin-top: 16px;
+        }
+        .type-item {
+            height: 35px;
+            line-height: 35px;
+            font-size: 15px;
+            position: relative;
+        }
+        .type-radio {
+            height: 25px;
+            width: 25px;
+            position: absolute;
+            right: 0;
+            top: 5px;
+        }
+        .select-add-option {
+            height: 25px;
+            width: 40px;
+            border-radius: 5px;
+            line-height: 25px;
+
+            position: absolute;
+            right: 0;
+            top: 5px;
+        }
+        .cost {
+            background-color: rgb(253, 204, 42);
+            padding-top: 10px;
+            padding-bottom: 10px;
+        }
+        .cost-text {
+            font-weight: bold;
+            font-size: 35px;
+        }
+        .cost-sale {
+            color: $red-color;
+        }
+        .calc-btn {
+            display: inline-block;
+            padding: 15px 30px;
+            margin-top: 20px;
+            font-size: 16px;
+            font-weight: bold;
+            background-color: $red-color;
+            color: white;
+            border: none;
+            border-radius: 23px;
+            text-transform: uppercase;
+        }
+        .calc-block.warning {
+            font-size: 14px;
+            line-height: 20px;
+            margin-top: 10px;
+        }
+    }
+    /* --- //CALCULATOR --- */
+
+
+    /* --- STEPS --- */
+    .steps {
+        margin-top: 60px;
+        margin-bottom: 60px;
+    
+        .steps-box {
+            max-width: 1250px;
+            width: 100%;
+            margin-left: auto;
+            margin-right: auto;
+
+            display: flex;
+            flex-direction: row;
+            justify-content: space-around;
+        }
+        .step {
+            width: 300px;
+            text-align: center;
+        }
+        .step-img {
+            height: 100px;
+            width: 100px;
+            margin: 0 auto 10px;
+
+            background-repeat: no-repeat;
+            background-size: contain;
+            background-position: center;
+        }
+        .step-img-1 {
+            background-image: url(https://static.tildacdn.com/lib/tildaicon/63366338-3537-4664-b431-303039353764/Tilda_Icons_28_law_consulting.svg);
+        }
+        .step-img-2 {
+            background-image: url(https://static.tildacdn.com/lib/tildaicon/39333639-3630-4133-b330-346132393834/3st_kid.svg);
+        }
+        .step-img-3 {
+            background-image: url(https://thumb.tildacdn.com/tild6631-6434-4965-b562-313566386332/-/cover/100x100/center/center/-/format/webp/rukopozhatiye.png);
+        }
+    }
+    /* --- //   STEPS --- */
+
+
+    /* --- CONTACT FORM --- */
+    #contacts {
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+        padding: 70px 0 60px;
+        background-image: url(https://potolok24.com/img/banner5.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+    
+        .contact-flex {
+            max-width: 1250px;
+            width: 100%;
+            margin-left: auto;
+            margin-right: auto;
+            margin-top: 50px;
+
+            display: flex;
+            flex-direction: row;
+            justify-content: space-around;
+        }
+        .contact-form {
+            width: 90%;
+            max-width: 500px;
+
+            form {
+                width: 100%;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                padding-bottom: 30px;
+                border-radius: 10px;
+                background-color: $light-grey;
+
+                span{
+                    width: 80%;
+                    margin-top: 20px;
+                    font-size: 14px;
+                    text-align: justify;
+                }
+            }
+        }
+        .contact-input {
+            display: block;
+            width: 80%;
+            height: 60px;
+            margin-top: 30px;
+            border-radius: 5px;
+            padding: 5px 20px;
+            font-size: 22px;
+            border: none;
+            box-shadow: inset 1px 4px 4px rgba(0, 0, 0, .2);
+        }
+        .contact-btn {
+            width: 80%;
+            height: 70px;
+            margin-top: 50px;
+            border-radius: 5px;
+            background-color: $red-color;
+            border: none;
+            color: #fff;
+            font-size: 28px;
+            font-weight: bold;
+        }
+        .contact-text {
+            width: 90%;
+            max-width: 500px;
+        }
+        .contact-header {
+            font-size: 45px;
+            font-weight: bold;
+            span {
+                color: $red-color;
+            }
+        }
+        .contact-body {
+            margin-top: 30px;
+            font-size: 20px;
+            line-height: 1.3;
+            a {
+                color: $red-color;
+                font-weight: bold;
+            }
+        }
+    }
+    /* --- // CONTACT FORM --- */
+
+
+    /* --- FAQ --- */
+    #FAQ {
+        width: 100%;
+        margin: 0 auto;
+        padding: 50px 0 50px;
+        background-color: $light-grey;
+    
+        .questions {
+            max-width: 1000px;
+            width: 90%;
+            margin-left: auto;
+            margin-right: auto;
+            background-color: #fff;
+        }
+        .question {
+            width: 100%;
+            border: 1px solid #ccc;
+            padding: 15px;
+
+            p {
+                width: 100%;
+                text-align: justify;
+                line-height: 25px;
+            }
+        }
+        .question + .question {
+            border-top: none;
+        }
+        .quest-header {
+            font-size: 22px;
+            font-weight: bold;
+            cursor: pointer;
+
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .answer {
+            padding: 20px 0 10px;
+        }
+        .qh-span-2 {
+            transition: all 0.2s ease-in;
+            width: 35px;
+            height: 35px;
+            border-radius: 50%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+            &:hover {
+                background-color: red;
+                color: #fff;
+            }
+        }
+        .span-rotate .qh-span-2 {
+            transform: rotate(45deg);
+            background-color: red;
+            color: #fff;
+        }
+    }
+    /* --- //FAQ --- */
+
+
+    /* --- REVIEWS --- */
+    .reviews {
+        width: 100%;
+        margin: 0 auto 40px;
+    
+        #block-for-slider {
+            width: 90%;
+            max-width: 1000px;
+            margin: 0 auto;
+            padding-top: 50px;
+        }
+        #viewport {
+            width: 100%;
+            position: relative;
+            overflow: hidden;
+            -webkit-user-select: none;
+            -moz-user-select: none;
+            -ms-user-select: none;
+            -o-user-select: none;
+            user-select: none;
+            text-align: center;
+        }
+        #slidewrapper {
+            position: relative;
+            width: calc(100% * 4);
+            -webkit-transition: 1s;
+            -o-transition: 1s;
+            transition: 1s;
+            -webkit-transition-timing-function: cubic-bezier(.67,.01,.23,1);
+            -o-transition-timing-function: cubic-bezier(.67,.01,.23,1);
+            transition-timing-function: cubic-bezier(.67,.01,.23,1);
+        }
+        #slidewrapper, #slidewrapper ul, #slidewrapper li {
+            margin: 0;
+            padding: 0;
+        }
+        .slide {
+            width: calc(100%/4);
+            list-style: none;
+            display: inline;
+            float: left;
+        }
+        .review-slide {
+            width: 100%;
+            height: 500px;
+            padding-top: 30px;
+
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: space-around;
+        }
+        .review-ava {
+            width: 130px;
+            height: 130px;
+            background-image: url(https://yt3.ggpht.com/a/AATXAJwW5kQn5S3OmMO23aaaSQi6UJWTZnyhBkpd3VUV=s900-c-k-c0x00ffffff-no-rj);
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: contain;
+            border-radius: 50%;
+        }
+        .review-text {
+            width: 80%;
+            font-style: italic;
+            font-size: 18px;
+            color: #525252;
+        }
+        .review-people-description {
+            width: 80%;
+            font-weight: bold;
+            padding-bottom: 20px;
+        }
+        #prev-btn, #next-btn {
+            position: absolute;
+            width: 30px;
+            height: 30px;
+            line-height: 30px;
+            font-size: 30px;
+            font-weight: bold;
+            border-radius: 50%;
+            top: calc(50% - 15px);
+            &:hover {
+                cursor: pointer;
+            }
+        }
+        #prev-btn {
+            left: 5px;
+        }
+        #next-btn {
+            right: 5px;
+        }
+        #nav-btns {
+            position: absolute;
+            width: 100%;
+            bottom: 8px;
+            padding: 0;
+            margin: 0;
+            text-align: center;
+        }
+        .slide-nav-btn {
+            position: relative;
+            display: inline-block;
+            list-style: none;
+            width: 10px;
+            height: 10px;
+            background-color: #ccc;
+            border-radius: 50%;
+            margin: 3px;
+            &:hover {
+                cursor: pointer;
+            }
+        }
+    }
+    /* --- // REVIEWS --- */
+
+
+    /* --- MODALS --- */
+    #modals-container {
+        .modal-window {
+            width: 90vw;
+            height: 85vh;
+            padding: 15px;
+            background-color: $light-grey;
+            border-radius: 10px;
+            border: 2px solid #ccc;
+            box-shadow: 0 0 10px rgba(0, 0, 0, .5);
+            opacity: 0;
+            transition: all .4s ease-in;
+
+            position: fixed;
+            top: 70px;
+            left: -2000px;
+        }
+        .modal-window--active {
+            width: 90vw;
+            height: 85vh;
+            left: 5vw;
+            display: block;
+            opacity: 1;
+            transition: all .4s ease-in;
+        }
+        .modal-half-1 {
+            width: 100%;
+            height: 40%;
+
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+        }
+        .modal-img {
+            width: 30%;
+            height: 100%;
+
+            background-position: center;
+            background-size: cover;
+            background-repeat: no-repeat;
+        }
+        .modal-params {
+            width: 70%;
+            height: 100%;
+        }
+        .modal-top-line {
+            width: 100%;
+            height: 20%;
+            display: flex;
+            flex-direction: row;
+        }
+        .modal-header {
+            width: 95%;
+            height: 100%;
+
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+            font-size: 30px;
+            font-weight: bold;
+        }
+        .modal-close {
+            width: 5%;
+            height: 100%;
+
+            font-size: 34px;
+            text-align: right;
+            cursor: pointer;
+
+            &:hover {
+                color: red;
+            }
+        }
+        .modal-cost {
+            width: 100%;
+            height: 80%;
+            padding: 30px 40px 0;
+            font-size: 18px;
+
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+        }
+        .modal-cost span {
+            font-weight: bold;
+        }
+        .modal-cost-link {
+            display: block;
+            width: 300px;
+            height: 50px;
+            padding: 0 20px;
+
+            text-align: center;
+            font-size: 20px;
+            line-height: 50px;
+
+            color: #fff;
+            background-color: $red-color;
+            border-radius: 8px;
+        }
+        .modal-half-2 p{
+            margin: 30px 0;
+            font-size: 16px;
+            line-height: 1.3;
+        }
+
+        /* MODALS IMG: */
+        #modal-1-1 .modal-img {
+            background-image: url(https://static.tildacdn.com/tild3365-3539-4531-a137-613337643533/s1200_9.jpg);
+        }
+        #modal-1-2 .modal-img {
+            background-image: url(https://thumb.tildacdn.com/tild6163-3832-4663-b566-333764373531/-/cover/260x240/center/center/-/format/webp/03_1.jpg);
+        }
+        #modal-1-3 .modal-img {
+            background-image: url(https://thumb.tildacdn.com/tild6562-3061-4263-b439-343538313934/-/cover/260x240/center/center/-/format/webp/___4.jpg);
+        }
+        #modal-1-4 .modal-img {
+            background-image: url(https://thumb.tildacdn.com/tild3637-6238-4435-a463-333864663738/-/cover/260x240/center/center/-/format/webp/scale_1200_9_1.jpg);
+        }
+        #modal-2-1 .modal-img{
+            background-image: url(https://averno.testseolead.ru/wp-content/uploads/2019/11/3foto.jpg);
+        }
+        #modal-2-2 .modal-img{
+            background-image: url(https://images.by.prom.st/223372592_w500_h500_dvuhurovnevye-natyazhnye-potolki.jpg);
+        }
+        #modal-2-3 .modal-img{
+            background-image: url(https://static.tildacdn.com/tild3466-3365-4961-a136-646634333034/s1200_11.jpg);
+        }
+        #modal-2-4 .modal-img{
+            background-image: url(https://images.by.prom.st/224612580_w200_h200_konstruktsiya-dlya-montazha.jpg);
+        }
+        #modal-2-5 .modal-img{
+            background-image: url(https://thumb.tildacdn.com/tild3536-3533-4562-b533-636532373461/-/cover/360x240/center/center/-/format/webp/1574086091_podsvetka.jpg);
+        }
+        #modal-2-6 .modal-img{
+            background-image: url(https://room-potolok.ru/static/pages/images/gallery/%D0%91%D0%B5%D1%81%D1%88%D0%BE%D0%B2%D0%BD%D1%8B%D0%B5/88ec8101-1024x555.jpg);
+        }
+    }
+    /* --- // MODALS --- */
+}
+/* --- // MAIN --- */
+
+/* --- FOOTER --- */
+#footer {
+    width: 100%;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    background-color: #e3e3e3;
+
+    .footer-box {
+        max-width: 1100px;
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    .footer-ul {
+        list-style-type: none;
+    }
+    .footer-li {
+        line-height: 1.5;
+        cursor: pointer;
+    }
+    .footer-li-a {
+        color: #000;
+    }
+    .footer-li-header {
+        font-weight: bold;
+        cursor: text;
+    }
+    .footer-li + .footer-li-header {
+        margin-top: 15px;
+    }
+    .footer-mb10 {
+        margin-bottom: 10px;
+    }
+    .footer-icons {
+        text-align: center;
+    }
+    .footer-icon {
+        color: black;
+        font-size: 22px;
+    }
+    .footer-icon + .footer-icon {
+        margin-left: 15px;
+    }
+}
+/* --- // FOOTER --- */

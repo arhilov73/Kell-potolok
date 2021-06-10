@@ -1,0 +1,1006 @@
+/* font-family: 'Comfortaa', cursive; */
+/* --- SUPPORTING CLASSES --- */
+.opacity-5 {
+  opacity: .5;
+}
+
+.bg-color-1 {
+  background-color: #222222;
+}
+
+.section-header {
+  width: 70%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 40px;
+  font-size: 34px;
+  text-align: center;
+  font-weight: bold;
+}
+
+.mt-60 {
+  margin-top: 60px;
+}
+
+/* --- // SUPPORTING CLASSES --- */
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+html {
+  font-family: 'Comfortaa', cursive;
+}
+
+body {
+  width: 100vw;
+  margin: auto;
+  background-color: #fff;
+  overflow-x: hidden;
+}
+
+.wrapper {
+  width: 100%;
+  margin: 0 auto;
+}
+
+input[type=range] {
+  cursor: pointer;
+}
+
+/* --- HEADER --- */
+#header {
+  width: 100%;
+  height: 100vh;
+  padding-top: 60px;
+  background-size: cover;
+  background-position-x: center;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.3)), to(rgba(0, 0, 0, 0.85))), url(https://e-dz.ru/uploads/imagecache/product/stretch-ceiling/revado-natyazhnoy-potolok-proekt-no150-5dcbc28d453b6.jpg);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.85)), url(https://e-dz.ru/uploads/imagecache/product/stretch-ceiling/revado-natyazhnoy-potolok-proekt-no150-5dcbc28d453b6.jpg);
+}
+#header #nav {
+  height: 60px;
+  width: 100%;
+  padding: 0 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: fixed;
+  top: 0;
+  background-color: rgba(34, 34, 34, 0.5);
+  z-index: 2;
+}
+#header .logo {
+  height: 60px;
+  width: 60px;
+  padding: 3.5px;
+}
+#header .navbar {
+  height: 100%;
+  list-style: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+#header .nav-item {
+  height: 100%;
+}
+#header .nav-item a {
+  display: inline-block;
+  height: 100%;
+  line-height: 60px;
+  color: white;
+  padding: 0 30px;
+  text-transform: uppercase;
+  font-weight: bold;
+  letter-spacing: 1px;
+  -webkit-transition: all .1s ease-in;
+  transition: all .1s ease-in;
+}
+#header .nav-item a:hover {
+  color: #d6d5d5;
+  -webkit-transition: all .1s ease-in;
+  transition: all .1s ease-in;
+}
+#header .phone-number {
+  height: 100%;
+  width: 30vw;
+  text-align: right;
+}
+#header .phone-number a {
+  display: inline-block;
+  height: 100%;
+  line-height: 60px;
+  color: white;
+  letter-spacing: 1px;
+  font-weight: bold;
+  -webkit-transition: all .1s ease-in;
+  transition: all .1s ease-in;
+}
+#header .phone-number a:hover {
+  color: orangered;
+  -webkit-transition: all .1s ease-in;
+  transition: all .1s ease-in;
+}
+#header .header-banner {
+  height: 100%;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  color: white;
+}
+#header .header-banner-head {
+  font-size: 26px;
+  font-weight: bold;
+}
+#header .header-banner-head span {
+  border-bottom: 2px solid white;
+  padding-bottom: 5px;
+}
+#header .header-banner-body {
+  margin-top: 20px;
+  font-size: 60px;
+  font-weight: bold;
+  color: orangered;
+  text-transform: uppercase;
+  text-align: center;
+}
+#header .header-banner-body span {
+  color: white;
+}
+#header .header-banner-sale {
+  margin-top: 40px;
+}
+#header .header-banner-time {
+  font-size: 70px;
+  font-weight: bold;
+  margin-top: 20px;
+}
+#header .header-banner-btn {
+  height: 7vh;
+  width: 20%;
+  margin-top: 30px;
+  border-radius: 3.5vh;
+  text-align: center;
+  line-height: 7vh;
+  font-size: 18px;
+  font-weight: bold;
+  background-color: orangered;
+  color: white;
+}
+
+/* --- //HEADER --- */
+/* --- MAIN --- */
+main {
+  margin-left: auto;
+  margin-right: auto;
+  /* --- PROMO-INFO --- */
+  /* --- // PROMO-INFO --- */
+  /* --- TYPES --- */
+  /* --- // TYPES --- */
+  /* --- CALCULATOR --- */
+  /* --- //CALCULATOR --- */
+  /* --- STEPS --- */
+  /* --- //   STEPS --- */
+  /* --- CONTACT FORM --- */
+  /* --- // CONTACT FORM --- */
+  /* --- FAQ --- */
+  /* --- //FAQ --- */
+  /* --- REVIEWS --- */
+  /* --- // REVIEWS --- */
+  /* --- MODALS --- */
+  /* --- // MODALS --- */
+}
+main .advantages {
+  max-width: 1250px;
+  width: 95%;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 60px;
+  padding-bottom: 50px;
+}
+main .advantages .adv-cards {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  margin-bottom: 80px;
+  text-align: center;
+}
+main .advantages .adv-card--body {
+  font-size: 20px;
+}
+main .advantages .advantages-text {
+  text-align: justify;
+  font-size: 18px;
+  line-height: 1.3;
+}
+main .types {
+  width: 100%;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  background-color: #f7f7f7;
+  /* --- CARDS-1 IMG --- */
+  /* --- // CARDS-1 IMG --- */
+  /* --- CARDS-2 IMG --- */
+  /* --- CARDS-2 IMG --- */
+}
+main .types .types-header {
+  max-width: 1250px;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 25px;
+  font-size: 22px;
+}
+main .types .type-cards {
+  max-width: 1250px;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+main .types .type-card {
+  width: 265px;
+}
+main .types .type-card-2 {
+  width: 400px;
+}
+main .types .type-img {
+  width: 100%;
+  height: 265px;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+main .types .type-body {
+  width: 100%;
+  padding-top: 15px;
+}
+main .types .type-header {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 15px;
+}
+main .types .type-description {
+  height: 76px;
+  font-size: 14px;
+  margin-bottom: 25px;
+  line-height: 1.4;
+}
+main .types .type-card-2 .type-description {
+  height: 85px;
+}
+main .types .type-btn {
+  width: 60%;
+  height: 44px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-weight: bold;
+  font-size: 14px;
+  border: 1px solid orangered;
+  border-radius: 22px;
+  cursor: pointer;
+}
+main .types .type-btn:hover {
+  background-color: orangered;
+  color: white;
+  -webkit-transition: all 0.2s ease-in;
+  transition: all 0.2s ease-in;
+}
+main .types .type-card--mt30 {
+  margin-top: 30px;
+}
+main .types .type-card:nth-child(1) .type-img {
+  background-image: url(https://static.tildacdn.com/tild3365-3539-4531-a137-613337643533/s1200_9.jpg);
+}
+main .types .type-card:nth-child(2) .type-img {
+  background-image: url(https://thumb.tildacdn.com/tild6163-3832-4663-b566-333764373531/-/cover/260x240/center/center/-/format/webp/03_1.jpg);
+}
+main .types .type-card:nth-child(3) .type-img {
+  background-image: url(https://thumb.tildacdn.com/tild6562-3061-4263-b439-343538313934/-/cover/260x240/center/center/-/format/webp/___4.jpg);
+}
+main .types .type-card:nth-child(4) .type-img {
+  background-image: url(https://thumb.tildacdn.com/tild3637-6238-4435-a463-333864663738/-/cover/260x240/center/center/-/format/webp/scale_1200_9_1.jpg);
+}
+main .types .type-card-2:nth-child(1) .type-img {
+  background-image: url(https://averno.testseolead.ru/wp-content/uploads/2019/11/3foto.jpg);
+}
+main .types .type-card-2:nth-child(2) .type-img {
+  background-image: url(https://images.by.prom.st/223372592_w500_h500_dvuhurovnevye-natyazhnye-potolki.jpg);
+}
+main .types .type-card-2:nth-child(3) .type-img {
+  background-image: url(https://static.tildacdn.com/tild3466-3365-4961-a136-646634333034/s1200_11.jpg);
+}
+main .types .type-card-2:nth-child(4) .type-img {
+  background-image: url(https://images.by.prom.st/224612580_w200_h200_konstruktsiya-dlya-montazha.jpg);
+}
+main .types .type-card-2:nth-child(5) .type-img {
+  background-image: url(https://thumb.tildacdn.com/tild3536-3533-4562-b533-636532373461/-/cover/360x240/center/center/-/format/webp/1574086091_podsvetka.jpg);
+}
+main .types .type-card-2:nth-child(6) .type-img {
+  background-image: url(https://room-potolok.ru/static/pages/images/gallery/%D0%91%D0%B5%D1%81%D1%88%D0%BE%D0%B2%D0%BD%D1%8B%D0%B5/88ec8101-1024x555.jpg);
+}
+main .calculator {
+  max-width: 1250px;
+  width: 90%;
+  margin: 40px auto 0;
+  padding: 20px 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-shadow: 0 0 15px rgba(101, 101, 180, 0.6);
+          box-shadow: 0 0 15px rgba(101, 101, 180, 0.6);
+  border: 1px solid #6565b4;
+}
+main .calculator .calc-flex-block {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+main .calculator .calc-block {
+  width: 100%;
+  padding: 0 60px;
+  text-align: center;
+  font-size: 20px;
+}
+main .calculator .calc-block .range-s {
+  width: 100%;
+  margin: 20px 0 20px 0;
+}
+main .calculator .calc-block .current-s {
+  width: 30%;
+  height: 40px;
+  padding: 5px;
+  font-size: 30px;
+}
+main .calculator .calc-block .current-s:disabled {
+  background-color: white;
+  border-width: 1px;
+  border-color: #767676;
+}
+main .calculator .calc-flex-block .calc-block {
+  margin-bottom: 20px;
+}
+main .calculator .type-list {
+  list-style-type: none;
+  text-align: justify;
+  margin-top: 16px;
+}
+main .calculator .type-item {
+  height: 35px;
+  line-height: 35px;
+  font-size: 15px;
+  position: relative;
+}
+main .calculator .type-radio {
+  height: 25px;
+  width: 25px;
+  position: absolute;
+  right: 0;
+  top: 5px;
+}
+main .calculator .select-add-option {
+  height: 25px;
+  width: 40px;
+  border-radius: 5px;
+  line-height: 25px;
+  position: absolute;
+  right: 0;
+  top: 5px;
+}
+main .calculator .cost {
+  background-color: #fdcc2a;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+main .calculator .cost-text {
+  font-weight: bold;
+  font-size: 35px;
+}
+main .calculator .cost-sale {
+  color: orangered;
+}
+main .calculator .calc-btn {
+  display: inline-block;
+  padding: 15px 30px;
+  margin-top: 20px;
+  font-size: 16px;
+  font-weight: bold;
+  background-color: orangered;
+  color: white;
+  border: none;
+  border-radius: 23px;
+  text-transform: uppercase;
+}
+main .calculator .calc-block.warning {
+  font-size: 14px;
+  line-height: 20px;
+  margin-top: 10px;
+}
+main .steps {
+  margin-top: 60px;
+  margin-bottom: 60px;
+}
+main .steps .steps-box {
+  max-width: 1250px;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+main .steps .step {
+  width: 300px;
+  text-align: center;
+}
+main .steps .step-img {
+  height: 100px;
+  width: 100px;
+  margin: 0 auto 10px;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+}
+main .steps .step-img-1 {
+  background-image: url(https://static.tildacdn.com/lib/tildaicon/63366338-3537-4664-b431-303039353764/Tilda_Icons_28_law_consulting.svg);
+}
+main .steps .step-img-2 {
+  background-image: url(https://static.tildacdn.com/lib/tildaicon/39333639-3630-4133-b330-346132393834/3st_kid.svg);
+}
+main .steps .step-img-3 {
+  background-image: url(https://thumb.tildacdn.com/tild6631-6434-4965-b562-313566386332/-/cover/100x100/center/center/-/format/webp/rukopozhatiye.png);
+}
+main #contacts {
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 70px 0 60px;
+  background-image: url(https://potolok24.com/img/banner5.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+main #contacts .contact-flex {
+  max-width: 1250px;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 50px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+main #contacts .contact-form {
+  width: 90%;
+  max-width: 500px;
+}
+main #contacts .contact-form form {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding-bottom: 30px;
+  border-radius: 10px;
+  background-color: #f7f7f7;
+}
+main #contacts .contact-form form span {
+  width: 80%;
+  margin-top: 20px;
+  font-size: 14px;
+  text-align: justify;
+}
+main #contacts .contact-input {
+  display: block;
+  width: 80%;
+  height: 60px;
+  margin-top: 30px;
+  border-radius: 5px;
+  padding: 5px 20px;
+  font-size: 22px;
+  border: none;
+  -webkit-box-shadow: inset 1px 4px 4px rgba(0, 0, 0, 0.2);
+          box-shadow: inset 1px 4px 4px rgba(0, 0, 0, 0.2);
+}
+main #contacts .contact-btn {
+  width: 80%;
+  height: 70px;
+  margin-top: 50px;
+  border-radius: 5px;
+  background-color: orangered;
+  border: none;
+  color: #fff;
+  font-size: 28px;
+  font-weight: bold;
+}
+main #contacts .contact-text {
+  width: 90%;
+  max-width: 500px;
+}
+main #contacts .contact-header {
+  font-size: 45px;
+  font-weight: bold;
+}
+main #contacts .contact-header span {
+  color: orangered;
+}
+main #contacts .contact-body {
+  margin-top: 30px;
+  font-size: 20px;
+  line-height: 1.3;
+}
+main #contacts .contact-body a {
+  color: orangered;
+  font-weight: bold;
+}
+main #FAQ {
+  width: 100%;
+  margin: 0 auto;
+  padding: 50px 0 50px;
+  background-color: #f7f7f7;
+}
+main #FAQ .questions {
+  max-width: 1000px;
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #fff;
+}
+main #FAQ .question {
+  width: 100%;
+  border: 1px solid #ccc;
+  padding: 15px;
+}
+main #FAQ .question p {
+  width: 100%;
+  text-align: justify;
+  line-height: 25px;
+}
+main #FAQ .question + .question {
+  border-top: none;
+}
+main #FAQ .quest-header {
+  font-size: 22px;
+  font-weight: bold;
+  cursor: pointer;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+main #FAQ .answer {
+  padding: 20px 0 10px;
+}
+main #FAQ .qh-span-2 {
+  -webkit-transition: all 0.2s ease-in;
+  transition: all 0.2s ease-in;
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+main #FAQ .qh-span-2:hover {
+  background-color: red;
+  color: #fff;
+}
+main #FAQ .span-rotate .qh-span-2 {
+  -webkit-transform: rotate(45deg);
+          transform: rotate(45deg);
+  background-color: red;
+  color: #fff;
+}
+main .reviews {
+  width: 100%;
+  margin: 0 auto 40px;
+}
+main .reviews #block-for-slider {
+  width: 90%;
+  max-width: 1000px;
+  margin: 0 auto;
+  padding-top: 50px;
+}
+main .reviews #viewport {
+  width: 100%;
+  position: relative;
+  overflow: hidden;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  -o-user-select: none;
+  user-select: none;
+  text-align: center;
+}
+main .reviews #slidewrapper {
+  position: relative;
+  width: calc(100% * 4);
+  -webkit-transition: 1s;
+  transition: 1s;
+  -webkit-transition-timing-function: cubic-bezier(0.67, 0.01, 0.23, 1);
+  transition-timing-function: cubic-bezier(0.67, 0.01, 0.23, 1);
+}
+main .reviews #slidewrapper, main .reviews #slidewrapper ul, main .reviews #slidewrapper li {
+  margin: 0;
+  padding: 0;
+}
+main .reviews .slide {
+  width: calc(100%/4);
+  list-style: none;
+  display: inline;
+  float: left;
+}
+main .reviews .review-slide {
+  width: 100%;
+  height: 500px;
+  padding-top: 30px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+main .reviews .review-ava {
+  width: 130px;
+  height: 130px;
+  background-image: url(https://yt3.ggpht.com/a/AATXAJwW5kQn5S3OmMO23aaaSQi6UJWTZnyhBkpd3VUV=s900-c-k-c0x00ffffff-no-rj);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  border-radius: 50%;
+}
+main .reviews .review-text {
+  width: 80%;
+  font-style: italic;
+  font-size: 18px;
+  color: #525252;
+}
+main .reviews .review-people-description {
+  width: 80%;
+  font-weight: bold;
+  padding-bottom: 20px;
+}
+main .reviews #prev-btn, main .reviews #next-btn {
+  position: absolute;
+  width: 30px;
+  height: 30px;
+  line-height: 30px;
+  font-size: 30px;
+  font-weight: bold;
+  border-radius: 50%;
+  top: calc(50% - 15px);
+}
+main .reviews #prev-btn:hover, main .reviews #next-btn:hover {
+  cursor: pointer;
+}
+main .reviews #prev-btn {
+  left: 5px;
+}
+main .reviews #next-btn {
+  right: 5px;
+}
+main .reviews #nav-btns {
+  position: absolute;
+  width: 100%;
+  bottom: 8px;
+  padding: 0;
+  margin: 0;
+  text-align: center;
+}
+main .reviews .slide-nav-btn {
+  position: relative;
+  display: inline-block;
+  list-style: none;
+  width: 10px;
+  height: 10px;
+  background-color: #ccc;
+  border-radius: 50%;
+  margin: 3px;
+}
+main .reviews .slide-nav-btn:hover {
+  cursor: pointer;
+}
+main #modals-container {
+  /* MODALS IMG: */
+}
+main #modals-container .modal-window {
+  width: 90vw;
+  height: 85vh;
+  padding: 15px;
+  background-color: #f7f7f7;
+  border-radius: 10px;
+  border: 2px solid #ccc;
+  -webkit-box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+          box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  opacity: 0;
+  -webkit-transition: all .4s ease-in;
+  transition: all .4s ease-in;
+  position: fixed;
+  top: 70px;
+  left: -2000px;
+}
+main #modals-container .modal-window--active {
+  width: 90vw;
+  height: 85vh;
+  left: 5vw;
+  display: block;
+  opacity: 1;
+  -webkit-transition: all .4s ease-in;
+  transition: all .4s ease-in;
+}
+main #modals-container .modal-half-1 {
+  width: 100%;
+  height: 40%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+main #modals-container .modal-img {
+  width: 30%;
+  height: 100%;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+main #modals-container .modal-params {
+  width: 70%;
+  height: 100%;
+}
+main #modals-container .modal-top-line {
+  width: 100%;
+  height: 20%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+main #modals-container .modal-header {
+  width: 95%;
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-size: 30px;
+  font-weight: bold;
+}
+main #modals-container .modal-close {
+  width: 5%;
+  height: 100%;
+  font-size: 34px;
+  text-align: right;
+  cursor: pointer;
+}
+main #modals-container .modal-close:hover {
+  color: red;
+}
+main #modals-container .modal-cost {
+  width: 100%;
+  height: 80%;
+  padding: 30px 40px 0;
+  font-size: 18px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+main #modals-container .modal-cost span {
+  font-weight: bold;
+}
+main #modals-container .modal-cost-link {
+  display: block;
+  width: 300px;
+  height: 50px;
+  padding: 0 20px;
+  text-align: center;
+  font-size: 20px;
+  line-height: 50px;
+  color: #fff;
+  background-color: orangered;
+  border-radius: 8px;
+}
+main #modals-container .modal-half-2 p {
+  margin: 30px 0;
+  font-size: 16px;
+  line-height: 1.3;
+}
+main #modals-container #modal-1-1 .modal-img {
+  background-image: url(https://static.tildacdn.com/tild3365-3539-4531-a137-613337643533/s1200_9.jpg);
+}
+main #modals-container #modal-1-2 .modal-img {
+  background-image: url(https://thumb.tildacdn.com/tild6163-3832-4663-b566-333764373531/-/cover/260x240/center/center/-/format/webp/03_1.jpg);
+}
+main #modals-container #modal-1-3 .modal-img {
+  background-image: url(https://thumb.tildacdn.com/tild6562-3061-4263-b439-343538313934/-/cover/260x240/center/center/-/format/webp/___4.jpg);
+}
+main #modals-container #modal-1-4 .modal-img {
+  background-image: url(https://thumb.tildacdn.com/tild3637-6238-4435-a463-333864663738/-/cover/260x240/center/center/-/format/webp/scale_1200_9_1.jpg);
+}
+main #modals-container #modal-2-1 .modal-img {
+  background-image: url(https://averno.testseolead.ru/wp-content/uploads/2019/11/3foto.jpg);
+}
+main #modals-container #modal-2-2 .modal-img {
+  background-image: url(https://images.by.prom.st/223372592_w500_h500_dvuhurovnevye-natyazhnye-potolki.jpg);
+}
+main #modals-container #modal-2-3 .modal-img {
+  background-image: url(https://static.tildacdn.com/tild3466-3365-4961-a136-646634333034/s1200_11.jpg);
+}
+main #modals-container #modal-2-4 .modal-img {
+  background-image: url(https://images.by.prom.st/224612580_w200_h200_konstruktsiya-dlya-montazha.jpg);
+}
+main #modals-container #modal-2-5 .modal-img {
+  background-image: url(https://thumb.tildacdn.com/tild3536-3533-4562-b533-636532373461/-/cover/360x240/center/center/-/format/webp/1574086091_podsvetka.jpg);
+}
+main #modals-container #modal-2-6 .modal-img {
+  background-image: url(https://room-potolok.ru/static/pages/images/gallery/%D0%91%D0%B5%D1%81%D1%88%D0%BE%D0%B2%D0%BD%D1%8B%D0%B5/88ec8101-1024x555.jpg);
+}
+
+/* --- // MAIN --- */
+/* --- FOOTER --- */
+#footer {
+  width: 100%;
+  padding-top: 60px;
+  padding-bottom: 60px;
+  background-color: #e3e3e3;
+}
+#footer .footer-box {
+  max-width: 1100px;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+#footer .footer-ul {
+  list-style-type: none;
+}
+#footer .footer-li {
+  line-height: 1.5;
+  cursor: pointer;
+}
+#footer .footer-li-a {
+  color: #000;
+}
+#footer .footer-li-header {
+  font-weight: bold;
+  cursor: text;
+}
+#footer .footer-li + .footer-li-header {
+  margin-top: 15px;
+}
+#footer .footer-mb10 {
+  margin-bottom: 10px;
+}
+#footer .footer-icons {
+  text-align: center;
+}
+#footer .footer-icon {
+  color: black;
+  font-size: 22px;
+}
+#footer .footer-icon + .footer-icon {
+  margin-left: 15px;
+}
+
+/* --- // FOOTER --- */
